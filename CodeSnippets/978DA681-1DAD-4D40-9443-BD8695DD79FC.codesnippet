@@ -2,23 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>let</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeExpression</string>
 		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)placeholder
-{
-    UIBPlaceHolder *newObject = [[self class] new];
-
-    return newObject;
-}</string>
+	<string> let &lt;#name#&gt;:&lt;#class#&gt; = &lt;#class#&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B49BE2EA-9C14-4FD5-A23E-F44F5E451360</string>
+	<string>978DA681-1DAD-4D40-9443-BD8695DD79FC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>@swift let</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__todo_objc</string>
+	<string>__func_declare</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>TODO("&lt;#message#&gt;");</string>
+	<string>func &lt;#name#&gt;-&gt;&lt;#return#&gt;(&lt;#param-name#&gt;:&lt;#param-type#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C13646F4-58A2-4E91-88C9-03EB4E6CCE41</string>
+	<string>A1564D9E-9278-479F-AF4F-0758FA305BEF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TODO</string>
+	<string>@swift func declare</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

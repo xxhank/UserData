@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setup</string>
+	<string>__dispatch_ui</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setUp
-{
-    [super setUp];
-    &lt;#set up#&gt;
-}</string>
+	<string>dispatch_async(dispatch_get_main_queue(), { () -&gt; Void in
+    &lt;#code#&gt;
+                        })</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4DA65AE7-2FD0-4F79-842B-14FBB42E31D2</string>
+	<string>CEC02B6D-628B-42B6-A015-57B74C1C4511</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Define test fixture setUp method.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Test Fixture Set-Up (qualitycoding.org)</string>
+	<string>@swift dispatch ui</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

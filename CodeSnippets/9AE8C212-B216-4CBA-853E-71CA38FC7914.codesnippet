@@ -3,29 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>testoutlet</string>
+	<string>__func_define</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)test&lt;#Outlet#&gt;_ShouldBeConnected
-{
-    [sut view];
-    
-    assertThat(sut.&lt;#outlet#&gt;, is(notNilValue()));
-}
-</string>
+	<string> func &lt;#name#&gt;(&lt;#param#&gt;:&lt;#type#&gt;)-&gt;&lt;#return#&gt;{
+    &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>05CE602B-A281-4B4C-80A2-4F3A9C4E6902</string>
+	<string>9AE8C212-B216-4CBA-853E-71CA38FC7914</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Define test checking that an outlet is connected. "sut" is system under test. Uses OCHamcrest.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Test IBOutlet Connection (qualitycoding.org)</string>
+	<string>@swift func define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

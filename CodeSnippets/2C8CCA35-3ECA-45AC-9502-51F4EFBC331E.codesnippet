@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mockitoios</string>
+	<string>__class</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define MOCKITO_SHORTHAND
-#import &lt;OCMockitoIOS/OCMockitoIOS.h&gt;
+	<string>class &lt;#class#&gt;:&lt;#baseclass#&gt; {
+    &lt;#code#&gt;
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1C2FBA6C-FA44-4408-AE45-F6071D31F4FA</string>
+	<string>2C8CCA35-3ECA-45AC-9502-51F4EFBC331E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Import OCMockito pre-built as iOS framework.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Import OCMockito for iOS (qualitycoding.org)</string>
+	<string>@swift class</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

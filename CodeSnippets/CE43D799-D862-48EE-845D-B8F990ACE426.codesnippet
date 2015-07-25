@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>action</string>
+	<string>__todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (IBAction)&lt;#action#&gt;:(id)sender;</string>
+	<string>// TODO:</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5289C7C8-FE2F-499D-B5D6-51EBC21DD265</string>
+	<string>CE43D799-D862-48EE-845D-B8F990ACE426</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Declare IBAction method.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBAction Declaration (qualitycoding.org)</string>
+	<string>TODO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

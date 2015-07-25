@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__todo_objc</string>
+	<string>__mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>TODO("&lt;#message#&gt;");</string>
+	<string>// MARK: - &lt;#message#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C13646F4-58A2-4E91-88C9-03EB4E6CCE41</string>
+	<string>B5A315AE-9C51-49DF-A2CA-D23585ECB6E7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TODO</string>
+	<string>@swift pragma mark </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

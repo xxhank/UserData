@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>test</string>
+	<string>__protocol</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)test&lt;#Foo_ShouldBar#&gt;
-{
-    &lt;#given - when - then#&gt;
+	<string>protocol &lt;#name#&gt;Protocol{
+    &lt;#func#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>96593CA0-9F64-4AAC-BAD0-1E77F6120775</string>
+	<string>D9BC5183-D9B9-4884-8F4C-0B4E415E2DEB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Define test case, with hints for naming and structure.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Test Case (qualitycoding.org)</string>
+	<string>@switf protocol</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

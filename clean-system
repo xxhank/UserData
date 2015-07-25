@@ -1,0 +1,8 @@
+#/bin/sh
+
+while [[ -z password ]]; do
+    read -e -p "Enter your password: " password
+done
+
+DIR=`dirname $0`
+echo $password | sudo cp $DIR/SystemCodeSnippets.codesnippets /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources/SystemCodeSnippets.codesnippets

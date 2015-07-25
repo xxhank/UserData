@@ -30,7 +30,14 @@
 
 
     return instance;
-} /* application */</string>
+} /* application */
+
+- (void)dealloc
+{
+    abort();
+}
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BD607157-2727-4837-BFCD-2059A3AD08B3</string>
 	<key>IDECodeSnippetLanguage</key>

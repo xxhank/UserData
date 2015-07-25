@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>hamcrest</string>
+	<string>__fixme</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define HC_SHORTHAND
-#import &lt;OCHamcrest/OCHamcrest.h&gt;
-</string>
+	<string>// FIXME:</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D3B7BE53-9A14-42F8-94D9-6B273C29B338</string>
+	<string>15322853-A155-4ADA-9CAF-887F08710850</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Import OCHamcrest you build yourself, or pre-built as OS X framework.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Import OCHamcrest (qualitycoding.org)</string>
+	<string>FIXME</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>hamcrestios</string>
+	<string>var</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define HC_SHORTHAND
-#import &lt;OCHamcrestIOS/OCHamcrestIOS.h&gt;
-</string>
+	<string>var &lt;#name#&gt;:&lt;#AnyObject#&gt; = &lt;#UITableViewCell#&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D67E10C5-67EF-46D8-8335-5B5DEA875BCF</string>
+	<string>EB9604E3-301E-4720-8C8B-0D5292E175CD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Import OCHamcrest pre-built as iOS framework.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Import OCHamcrestIOS (qualitycoding.org)</string>
+	<string>@swift var</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

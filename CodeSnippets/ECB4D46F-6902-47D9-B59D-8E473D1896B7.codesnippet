@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>teardown</string>
+	<string>init_with_coder</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)tearDown
-{
-    &lt;#tear down#&gt;
-    [super tearDown];
-}</string>
+	<string> required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9C175617-CE05-4BCA-848D-C4E4DAC19851</string>
+	<string>ECB4D46F-6902-47D9-B59D-8E473D1896B7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Define test fixture tearDown method.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Test Fixture Tear-Down (qualitycoding.org)</string>
+	<string>@swift initWithCoder</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
